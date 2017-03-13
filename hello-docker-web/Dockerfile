@@ -20,5 +20,5 @@ COPY . /usr/src/hello-docker-web
 RUN npm install
 
 # Run app on container start up
-CMD node /usr/src/hello-docker-web/index.js
+CMD npm start
 EXPOSE 3000

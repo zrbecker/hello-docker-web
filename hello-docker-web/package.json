@@ -4,9 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "docker-build": "docker build . -t hello-docker-web",
+    "docker-run": "docker run -p 3000:3000 -d hello-docker-web",
+    "docker-stop": "",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "zrbecker@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }

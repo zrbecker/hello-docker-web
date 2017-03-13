@@ -1,2 +1,16 @@
 This project will be a simple hello world express app that can be launched
 easily in a docker container.
+
+You must have docker installed to run this applciation. You should have nodejs
+and npm installed to do development.
+
+To run application enter following commands
+
+npm run docker-build
+npm run docker-run
+
+Then point your browser to http://localhost:3000
+
+npm run docker-build - builds the docker image
+
+npm run docker-run - creates a docker container using the docker image
